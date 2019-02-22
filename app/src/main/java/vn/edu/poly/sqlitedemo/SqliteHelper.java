@@ -29,6 +29,8 @@ public class SqliteHelper extends SQLiteOpenHelper {
 
     public String CREATE_LOP = "CREATE TABLE " + LOP_TABLE +
             " (" + LOP_ID + " NVACHAR PRIMARY KEY," + LOP_NAME + " NVACHAR," + LOP_MAJOR + " NVACHAR)";
+
+
     public String CREATE_SV = "CREATE TABLE " + SV_TABLE +
             " (" + SV_ID + " NVACHAR PRIMARY KEY, " + SV_NAME + " NVACHAR, " + SV_HOME + " NVACHAR, " + SV_BIRTHDAY + " NVACHAR, " + SV_CLASS + " NVACHAR)";
 

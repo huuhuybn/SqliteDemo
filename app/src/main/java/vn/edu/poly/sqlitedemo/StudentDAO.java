@@ -42,6 +42,7 @@ public class StudentDAO {
             if (cursor.getCount() > 0) {
 
                 // neu doc het du lieu thi thoai khoi vong while
+                cursor.moveToFirst();
                 while (!cursor.isAfterLast()) {
 
                     String student_id = cursor.getString(cursor.getColumnIndex(SV_ID));

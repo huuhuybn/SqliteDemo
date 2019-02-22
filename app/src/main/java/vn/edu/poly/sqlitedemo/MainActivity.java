@@ -2,6 +2,7 @@ package vn.edu.poly.sqlitedemo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 import java.util.List;
 
@@ -42,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         List<Student> students = studentDAO.getAllStudents();
+
+        Log.e("size", students.size() + "");
 
 
 
